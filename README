@@ -1,0 +1,7 @@
+Extension Custom Action Log
+
+A test extension intended to demonstrate how to add custom actions into Plesk.
+
+The following techniques are demonstrated:
+* Add custom action to Plesk.
+* Event Listener mechanism.
