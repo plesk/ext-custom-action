@@ -5,8 +5,8 @@
   <name>Custom Action Example</name>
   <description>Custom Action usage example</description>
   <version>1.0</version>
-  <release>1</release>
+  <release>2</release>
   <vendor>Plesk</vendor>
-  <url>https://plesk.com</url>
+  <url>https://github.com/plesk/ext-custom-action</url>
   <plesk_min_version>17.0.12</plesk_min_version>
 </module>
