@@ -15,6 +15,7 @@ class Modules_CustomAction_EventListener implements EventListener
             ];
             file_put_contents($filePath . 'ext-custom-action.log', json_encode($data));
         }
+        pm_Log::info("Event '{$action}' is successfully handled.");
     }
 }
 return new Modules_CustomAction_EventListener();
