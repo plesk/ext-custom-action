@@ -6,8 +6,8 @@ class IndexController extends pm_Controller_Action
     {
         $this->view->pageTitle = 'Create Invoice';
         $this->view->actionLogText = 'Action "Test Action: Invoice created" is already added to ' .
-            '<a href="/plesk/actionlog/">Action Log</a>.<br>';
-        $this->view->eventHandlerText = 'Create <a href=\"/admin/event-handlers/list\">Event Handler</a>' .
+            '<a href="/cp/server/action-log">Action Log</a>.<br>';
+        $this->view->eventHandlerText = 'Create <a href="/admin/event-handlers/list">Event Handler</a>' .
             ' for "Test Action: Invoice created",<br> fill necessary info and click OK button.';
         $form = new Modules_CustomAction_Form_Invoice();
 
