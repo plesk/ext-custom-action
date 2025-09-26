@@ -27,6 +27,11 @@ class Modules_CustomAction_EventListener implements EventListener
             'C:\\Program Files (x86)\\Plesk\\PrivateTemp' : '/usr/local/psa/tmp';
     }
 
+    public function filterActions()
+    {
+        return ['ext_custom-action_test_invoice_created'];
+    }
+
 }
 
 return new Modules_CustomAction_EventListener();
